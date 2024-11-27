@@ -8,7 +8,7 @@ import useDataList from "../../../../utils/usedataList";
 import { FaArrowRight } from "@react-icons/all-files/fa/FaArrowRight";
 import { Link } from "gatsby";
 
-const componentsData = [
+export const componentsData = [
   {
     id: 1,
     name: "Button",
@@ -78,6 +78,13 @@ const componentsData = [
     description:
       "Box is used as a flexible container for layout and styling, allowing quick customization and responsive design adjustments.",
     url: "/projects/sistent/components/box",
+  },
+  {
+    id: 11,
+    name: "Tooltip",
+    description:
+      "The Tooltip component is a small pop-up box that appears when a user hovers over an element.",
+    url: "/projects/sistent/components/tooltip",
   },
 ];
 
